@@ -1,0 +1,9 @@
+{
+  "buildCommand": "yarn install && yarn nx build twenty-front",
+  "outputDirectory": "packages/twenty-front/build",
+  "installCommand": "yarn install",
+  "framework": null,
+  "env": {
+    "REACT_APP_SERVER_BASE_URL": "https://SEU-BACKEND-URL-AQUI"
+  }
+}
